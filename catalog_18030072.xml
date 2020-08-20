@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="catalog_18030072.css" ?>
+<!-- Dawa Tamang 18030072 -->
+
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_18030072.xsd">
+    <shop_detail>
+        <name>Led Floyd</name>
+        <address>The Bronx, NY, United States</address>
+        <telephone>982 493 5680</telephone>
+        <website>http://www.ledfloyd.com</website>
+        <logo />
+    </shop_detail>
+    <cars>
+        <coupes catId="CAT1">
+            <car id="C1">
+                <name>Camaro Zl1</name>
+                <brand>Chevrolet</brand>
+                <description>Impressively sharp and nimble handling</description>
+                <quantity>3</quantity>
+                <price>$26,000</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>General Motors Company</manufacturer>
+                    <color>Red Hot</color>
+                    <fuel_capacity>19.0 (gal)</fuel_capacity>
+                    <make_year>2020</make_year>
+                    <horsepower>455HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="C2">
+                <name>Mustang GT</name>
+                <brand>Ford</brand>
+                <description>A turbocharged 4-cylinder</description>
+                <quantity>2</quantity>
+                <price>$30,323</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Ford</manufacturer>
+                    <color>Shadow Black</color>
+                    <fuel_capacity>15.5 (gal)</fuel_capacity>
+                    <make_year>2016</make_year>
+                    <horsepower>435HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="C3">
+                <name>A5</name>
+                <brand>Audi</brand>
+                <description>Style taken to new dimensions</description>
+                <quantity>3</quantity>
+                <price>$37,000</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Volkswagen Group</manufacturer>
+                    <color>Grey</color>
+                    <fuel_capacity>15.3(gal)</fuel_capacity>
+                    <make_year>2018</make_year>
+                    <horsepower>248HP</horsepower>
+                </specifications>
+            </car>
+			
+            <car id="C4">
+                <name>SXT</name>
+                <brand>Dodge</brand>
+                <description>Dodge doesn't fail</description>
+                <quantity>2</quantity>
+                <price>$30,695</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>FCA US LLC</manufacturer>
+                    <color>Indigo Blue</color>
+                    <fuel_capacity>15(gal)</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>305HP</horsepower>
+                </specifications>
+            </car>
+        </coupes>
+
+        <sportscars catId="CAT2">
+            <car id="SC1">
+                <name>570S</name>
+                <brand>McLaren</brand>
+                <description>It delivers super car punch and thrills</description>
+                <quantity>4</quantity>
+                <price>$130,000</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>McLaren Automotive</manufacturer>
+                    <color>Orange</color>
+                    <fuel_capacity>16(gal)</fuel_capacity>
+                    <make_year>2020</make_year>
+                    <horsepower>529HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="SC2">
+                <name>488 PISTA</name>
+                <brand>Ferrari</brand>
+                <description>The most powerful V8 engine</description>
+                <quantity>1</quantity>
+                <price>$252,800</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Ferrari</manufacturer>
+                    <color>Red</color>
+                    <fuel_capacity>20.6(gal)</fuel_capacity>
+                    <make_year>2020</make_year>
+                    <horsepower>710HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="SC3">
+                <name>911 Carrera</name>
+                <brand>Porsche</brand>
+                <description>Timeless Machine</description>
+                <quantity>2</quantity>
+                <price>$293,200</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Volkswagen AG</manufacturer>
+                    <color>Jet Black Metallic</color>
+                    <fuel_capacity>14(gal)</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>443HP</horsepower>
+                </specifications>
+            </car>
+        </sportscars>
+
+        <suvs catId="CAT3">
+            <car id="S1">
+                <name>Model X</name>
+                <brand>Tesla</brand>
+                <description>The Quickest SUV</description>
+                <quantity>3</quantity>
+                <price>$80,000</price>
+                <specifications>
+                    <type>Electric</type>
+                    <manufacturer>Tesla, Inc.</manufacturer>
+                    <color>Solid Black</color>
+                    <fuel_capacity>100KwH</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>259HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="S2">
+                <name>Sorento</name>
+                <brand>Kia</brand>
+                <description>Comfort and quick handling</description>
+                <quantity>1</quantity>
+                <price>$26,000</price>
+                <promotion>Limited Price Offer</promotion>
+                <specifications>
+                    <type>Electric</type>
+                    <manufacturer>Kia Motors</manufacturer>
+                    <color>Snow White Pearl</color>
+                    <fuel_capacity>16.4(gal)</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>350HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="S3">
+                <name>Vitara Brezza</name>
+                <brand>Maruti Suzuki</brand>
+                <description>Petrol Engine</description>
+                <quantity>2</quantity>
+                <price>$6,400</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Maruti Suzuki</manufacturer>
+                    <color>Metallic Sizzling Red</color>
+                    <fuel_capacity>12.9(gal)</fuel_capacity>
+                    <make_year>2020</make_year>
+                    <horsepower>103HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="S4">
+                <name>Creta S</name>
+                <brand>Hyundai</brand>
+                <description>Best mid petrol variant</description>
+                <quantity>3</quantity>
+                <price>$9,780</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Hyundai Motor Company</manufacturer>
+                    <color>Black</color>
+                    <fuel_capacity>14.5(gal)</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>113HP</horsepower>
+                </specifications>
+            </car>
+
+        </suvs>
+
+        <sedan catId="CAT4">
+            <car id="M1">
+                <name>Jetta</name>
+                <brand>Volkswagen</brand>
+                <description>Compact small family car</description>
+                <quantity>2</quantity>
+                <price>$18,745</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Volkswagen Group</manufacturer>
+                    <color>Black</color>
+                    <fuel_capacity>14.5(gal)</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>228HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M2">
+                <name>Model 3</name>
+                <brand>Tesla</brand>
+                <description>Quickest Acceleration</description>
+                <quantity>2</quantity>
+                <price>$39,000</price>
+                <condition>Used</condition>
+                <specifications>
+                    <type>Electric</type>
+                    <manufacturer>Tesla, Inc.</manufacturer>
+                    <color>Pearl White</color>
+                    <fuel_capacity>50 KWh</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>283HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M3">
+                <name>E Class</name>
+                <brand>Mercedes-Benz</brand>
+                <description>Hi-Tech car</description>
+                <quantity>1</quantity>
+                <price>$53,500</price>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>Daimler AG</manufacturer>
+                    <color>Cavansite Blue</color>
+                    <fuel_capacity>21.13(gal)</fuel_capacity>
+                    <make_year>2019</make_year>
+                    <horsepower>255HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M4">
+                <name>M550</name>
+                <brand>BMW</brand>
+                <description>Mid-size luxury sedan</description>
+                <quantity>2</quantity>
+                <price>$73,900</price>
+                <promotion>Special Offer</promotion>
+                <specifications>
+                    <type>Fuel</type>
+                    <manufacturer>BMW</manufacturer>
+                    <color>Azurite Black Metallic</color>
+                    <fuel_capacity>18(gal)</fuel_capacity>
+                    <make_year>2018</make_year>
+                    <horsepower>455HP</horsepower>
+                </specifications>
+            </car>
+
+            <car id="M5">
+                <name>S8</name>
+                <brand>Audi</brand>
+                <description>Audi’s flagship sedan</description>
+                <quantity>2</quantity>
+                <price>$129,500</price>
+                <specifications>
+                    <type>Hybrid</type>
+                    <manufacturer>Volkswagen Group</manufacturer>
+                    <color>Brilliant Black</color>
+                    <fuel_capacity>21.7(gal)</fuel_capacity>
+                    <make_year>2020</make_year>
+                    <horsepower>563HP</horsepower>
+                </specifications>
+            </car>
+        </sedan>
+    </cars>
+</shop>

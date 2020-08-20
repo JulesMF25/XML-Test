@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- The Simple Elements -->
+    <xs:element name="name" type="xs:string" />
+    <xs:element name="address" type="xs:string" />
+    <xs:element name="telephone" type="xs:string" />
+    <xs:element name="website" type="xs:string" />
+    <xs:element name="logo" type="xs:anyURI" />
+    <xs:element name="brand" type="xs:string" />
+    <xs:element name="description" type="xs:string" />
+    <xs:element name="quantity" type="xs:integer" />
+    <xs:element name="price" type="xs:string" />
+    <xs:element name="promotion" type="xs:string" />
+    <xs:element name="condition" type="xs:string" />
+    <xs:element name="manufacturer" type="xs:string" />
+    <xs:element name="color" type="xs:string" />
+    <xs:element name="fuel_capacity" type="xs:string" />
+    <xs:element name="make_year" type="xs:integer" />
+    <xs:element name="horsepower" type="xs:string" />
+
+    <!-- The Simple Types -->
+    <xs:element name="type">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Fuel" />
+                <xs:enumeration value="Hybrid" />
+                <xs:enumeration value="Electric" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <!-- Attributes -->
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="catId" type="xs:ID" />
+
+
+    <!-- Complex types -->
+    <xs:element name="specifications">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="type" />
+                <xs:element ref="manufacturer" />
+                <xs:element ref="color" />
+                <xs:element ref="fuel_capacity" />
+                <xs:element ref="make_year" />
+                <xs:element ref="horsepower" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="car">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name" />
+                <xs:element ref="brand" />
+                <xs:element ref="description" />
+                <xs:element ref="quantity" />
+                <xs:element ref="price" />
+                <xs:element ref="promotion" minOccurs="0" />
+                <xs:element ref="condition" minOccurs="0" />
+                <xs:element ref="specifications" />
+            </xs:sequence>
+            <xs:attribute ref="id" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+	    <xs:element name="coupes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="car" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute ref="catId" use="required" />
+        </xs:complexType>
+    </xs:element>
+	
+    <xs:element name="sportscars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="car" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute ref="catId" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="suvs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="car" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute ref="catId" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="sedan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="car" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute ref="catId" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="shop_detail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name" />
+                <xs:element ref="address" />
+                <xs:element ref="telephone" />
+                <xs:element ref="website" />
+                <xs:element ref="logo" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="coupes" />
+                <xs:element ref="sportscars" />
+                <xs:element ref="suvs" />
+                <xs:element ref="sedan" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="shop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="shop_detail" />
+                <xs:element ref="cars" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
